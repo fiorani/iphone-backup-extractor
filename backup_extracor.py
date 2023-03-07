@@ -1,4 +1,4 @@
-from iOSbackup import iOSbackup 
+from iosbackup import iOSbackup 
 b = iOSbackup(udid="00008101-001C712C34E8001Es", cleartextpassword="")
 files = b.getBackupFilesList()
 for f in files:
